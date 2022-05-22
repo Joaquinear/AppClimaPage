@@ -1,0 +1,23 @@
+*{
+    font-family: 'Roboto',sans-serif;
+}
+
+body{
+    background-color: #C2EABD;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    background-color: #CD533B;
+    padding: 20px;
+    display: flex;
+    border-radius: 5px;
+    color: white;
+}
+
+#container > .block{
+    padding: 20px;
+}
