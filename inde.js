@@ -24,6 +24,19 @@ const setWeatherData = data =>{
     Object.keys(weatherData).forEach(key =>{
         document.getElementById(key).textContent = weatherData[key]
     })
+    cleanUP();
+}
+
+const cleanUP = ()=>{
+    let container = document.getElementById('container');
+    let loader = document.getElementById('loader');
+
+    
+    setTimeout(() => {
+        container.style.display='flex';
+    }, 200);
+    loader.style.display='none';
+    
 }
 
 const getDate = () =>{
